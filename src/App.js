@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="container">
-      <Header title={'goodKnight - version 1'}/>
+      <Header title={1} />
     </div>
   );
 }

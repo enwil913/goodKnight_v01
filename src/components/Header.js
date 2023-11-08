@@ -13,7 +13,7 @@ Header.defaultProps = {
     title: 'Default Title',
 }
 
-Header.PropTypes = {
+Header.propTypes = {
     title: PropTypes.string.isRequired,
 }
 
