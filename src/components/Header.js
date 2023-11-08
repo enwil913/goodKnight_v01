@@ -11,7 +11,7 @@ const Header = ({title}) => {
 }
 
 Header.defaultProps = {
-    title: 'Default Title'
+    title: 'Default Title',
 }
 
 Header.PropTypes = {
