@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="container">
-      <Header title={'手影'} version={'1.x'}/>
+      <Header title={'手影'} version={'v1.x'}/>
       <Trainers trainers = {trainers} />
     </div>
   );
