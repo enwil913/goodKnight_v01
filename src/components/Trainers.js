@@ -1,9 +1,12 @@
+import Trainer from "./Trainer"
+
+
 const Trainers = ({ trainers }) => {
 
   return (
     <>
       {trainers.map((trainer) => (
-        <h3 key={trainer.id}>{trainer.name}</h3>
+        <Trainer key={trainer.id} trainer={trainer}/>
       ))}
     </>
   )
