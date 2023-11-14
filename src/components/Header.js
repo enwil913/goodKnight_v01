@@ -8,8 +8,10 @@ const Header = ({title, version}) => {
 
     return (
     <header className='header'>
-        <h1 >{title}</h1>
-        <h3>{version}</h3>
+        <div style={{display: 'flex', alignItems: 'flex-end'}}>
+            <h1>{title}</h1>
+            <h3>{version}</h3>
+        </div>
         <Button color='green' text='Search' onClick={onClick}/>      
     </header>
   )
