@@ -23,7 +23,7 @@ function App() {
     
     },
     {
-      id: 1,
+      id: 3,
       name: 'GHI',
       shortName: 'G',
       totalWin: 0,
@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="container">
-      <Header title={'手影'} version={'v1.x'}/>
+      <Header title={'手影'} version={'v1.xx'}/>
       <Trainers trainers = {trainers} />
     </div>
   );
